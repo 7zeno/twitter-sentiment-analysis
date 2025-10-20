@@ -1,8 +1,8 @@
 # GPU-Accelerated Twitter Sentiment Analysis
 
-This project implements a high-performance, GPU-accelerated machine learning pipeline for binary sentiment analysis. It is trained on the Sentiment140 dataset (1.6 million tweets) using the NVIDIA RAPIDS ecosystem (`cudf`, `cupy`, and `cuml`).
+This project implements a high-performance, GPU-accelerated machine learning pipeline for binary sentiment analysis. It is trained on the Sentiment140 [dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) (1.6 million tweets) using the NVIDIA RAPIDS ecosystem (`cudf`, `cupy`, and `cuml`).
 
-The primary notebook, [`Sentiment Analysis Twitter.ipynb`](https://www.kaggle.com/datasets/kazanova/sentiment140), demonstrates the entire process from data loading and cleaning to feature extraction and model training, all performed on the GPU.
+The primary notebook, `Sentiment Analysis Twitter.ipynb`, demonstrates the entire process from data loading and cleaning to feature extraction and model training, all performed on the GPU.
 
 ## Technologies Used
 
